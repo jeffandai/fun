@@ -1,1 +1,154 @@
-<!-- 최신 HTML 내용은 시스템 상 다시 불러와야 합니다. 이전 수정 내역은 반영되었습니다. -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오사카 · 발리 · 서울 여행 일정표</title>
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .day-block {
+      background: #f8f8f8;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    .day-block h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.1rem;
+      color: #2c3e50;
+    }
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+    .note {
+      font-size: 0.95rem;
+      color: #444;
+      margin-top: 0.5rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+      margin: 0.5rem 0 0;
+    }
+    li {
+      margin-bottom: 0.3rem;
+    }
+    .checkbox {
+      margin-right: 0.5rem;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>오사카 · 발리 · 서울 여행 일정표</h1>
+
+  <div class="day-block">
+    <h2>7월 15일 (화) · 서울 → 오사카</h2>
+    <div><span class="label">항공:</span> 이스타항공 ZE615 (ICN 12:00 → KIX 14:10)</div>
+    <div><span class="label">숙소:</span> 오사카 메리어트 미야코 호텔</div>
+    <div><span class="label">지도:</span> <a href="https://www.google.com/maps/place/Osaka+Marriott+Miyako+Hotel/@34.6453163,135.5110003,17z" target="_blank">오사카 메리어트 미야코</a></div>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 16일 (수) · 오사카</h2>
+    <div><span class="label">활동:</span> 유니버셜 스튜디오 재팬 🎢</div>
+    <div class="note">
+      <label><input type="checkbox" class="checkbox"> 티켓 및 입장 예약</label><br>
+      <label><input type="checkbox" class="checkbox"> 오사카 맛집 조사 🍽️</label><br>
+      <span class="label">지도:</span> <a href="https://www.google.com/maps/place/Universal+Studios+Japan/@34.6654425,135.4323384,17z" target="_blank">유니버셜 스튜디오 재팬</a>
+    </div>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 17일 (목) · 오사카 → 싱가포르</h2>
+    <div><span class="label">항공:</span> 싱가포르항공 (KIX 10:55 → SIN)</div>
+    <div><span class="label">숙소:</span> 크라운 플라자 창이 에어포트 호텔</div>
+    <div class="note">
+      <label><input type="checkbox" class="checkbox"> 창이공항 실내정원(주얼 창이) 방문 🌿</label><br>
+      <label><input type="checkbox" class="checkbox"> 싱가포르 맛집 조사 🍽️</label><br>
+      <span class="label">지도:</span> <a href="https://www.google.com/maps/place/Crowne+Plaza+Changi+Airport/@1.3604522,103.9892621,17z" target="_blank">크라운 플라자 창이</a>
+    </div>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 18일 (금) · 싱가포르 → 발리</h2>
+    <div><span class="label">항공:</span> 싱가포르항공 (SIN → DPS 11:00 도착)</div>
+    <div><span class="label">숙소:</span> 아만킬라</div>
+    <div class="note">
+      <label><input type="checkbox" class="checkbox"> 공항 픽업 서비스 요청</label><br>
+      <span class="label">지도:</span> <a href="https://www.google.com/maps/place/Amankila/@-8.4848033,115.5741398,17z" target="_blank">아만킬라 리조트</a>
+    </div>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 19일 (토) · 발리</h2>
+    <ul>
+      <li><input type="checkbox" class="checkbox"> 요가 클래스 (무료)</li>
+      <li><input type="checkbox" class="checkbox"> 프라이빗 선라이즈 크루즈</li>
+      <li><input type="checkbox" class="checkbox"> 툴람벤 난파선 다이빙</li>
+    </ul>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 20일 (일) · 발리</h2>
+    <ul>
+      <li><input type="checkbox" class="checkbox"> 화이트워터 래프팅</li>
+      <li><input type="checkbox" class="checkbox"> 스파: 레이키 또는 명상</li>
+      <li><input type="checkbox" class="checkbox"> 저녁: 캔들라이트 디너</li>
+    </ul>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 21일 (월) · 발리</h2>
+    <ul>
+      <li><input type="checkbox" class="checkbox"> 구망 언덕 일출 트레킹</li>
+      <li><input type="checkbox" class="checkbox"> 발리 전통 축복 의식</li>
+      <li><input type="checkbox" class="checkbox"> 요가 클래스 (무료)</li>
+    </ul>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 22일 (화) · 발리 → 싱가포르</h2>
+    <div><span class="label">항공:</span> 싱가포르항공 (DPS 12:10 → SIN)</div>
+    <div><span class="label">숙소:</span> 공항 대기 (숙소 없음)</div>
+    <div class="note">
+      <label><input type="checkbox" class="checkbox"> 싱가포르 맛집 조사 🍽️</label><br>
+      <label><input type="checkbox" class="checkbox"> 공항 라운지 예약 💺</label>
+    </div>
+  </div>
+
+  <div class="day-block">
+    <h2>7월 23일 (수) · 싱가포르 → 서울</h2>
+    <div><span class="label">항공:</span> 싱가포르항공 (SIN → ICN 07:45 도착)</div>
+    <div class="note">귀국 ✈️</div>
+  </div>
+
+  <div class="day-block">
+    <h2>교통 정보 요약</h2>
+    <ul>
+      <li><strong>간사이 국제공항 → 오사카 메리어트 미야코 호텔</strong><br>
+        🚆 JR 간사이공항선 → Tennoji역 하차 (직결)<br>
+        ⏱ 약 50분 / 💰 약 1,100엔 / ✅ ICOCA 등 교통카드 사용 가능</li>
+      <li><strong>오사카 메리어트 → 유니버셜 스튜디오 재팬</strong><br>
+        JR 오사카순환선 Tennoji역 → Nishikujo역 환승 → JR Sakurajima Line → Universal City역 하차<br>
+        ⏱ 약 30–35분 / 💰 약 180엔 / ✅ JR 패스 사용 가능</li>
+    </ul>
+  </div>
+</body>
+</html>
